@@ -6,4 +6,12 @@ def main(a):
     Returns:
         bool: answer
     """
-    return
+    x = a % 100
+    x1 = x % 10
+    x2 = x // 10
+    x3 = a // 100
+
+    y = x1+x2+x3
+
+    return y %2 != 0
+print(main(335))

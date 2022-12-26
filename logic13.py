@@ -6,4 +6,8 @@ def main(a):
     Returns:
         bool: answer
     """
-    return
+    x = a % 10
+    y = a // 10
+    z = x +y 
+    return  z % 2 ==0
+print(main(35))    

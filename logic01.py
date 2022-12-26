@@ -8,5 +8,7 @@ def main(a,b,c):
     Returns:
         bool: answer
     """
-    return a < b < c
-print(main(5,4,3))    
+    x = a >= b >= c 
+    y = a<= b <= c 
+    return x or y
+print(main(6,4,1))    

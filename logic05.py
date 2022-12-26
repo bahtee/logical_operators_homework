@@ -1,3 +1,4 @@
+from math import *
 def main(a,b):
     """
     Given two integers a, b,  check the following statement "Each of the numbers 'a' and 'b' is odd".
@@ -7,4 +8,11 @@ def main(a,b):
     Returns:
         bool: answer
     """
-    return
+    x = a % 2
+    x= x!= 0
+    y = b % 2
+    y = y!= 0
+
+    return  x and y 
+
+print(main(9,1))    

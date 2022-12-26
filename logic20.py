@@ -8,5 +8,11 @@ def main(n):
     Returns:
         bool: answer
     """
+    x1 = n % 10 
+    # x2 = n % 100
+    # x2 = x2 // 10
+    # x = x1 == 0
+    # y = x2 == 0
 
-    return
+    return x1 > 0
+print(main(10011))
